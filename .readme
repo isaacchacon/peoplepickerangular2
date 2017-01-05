@@ -1,0 +1,19 @@
+1. Install dependencies
+  Fire the below command at the root of the directory structure:
+  > npm install
+2. To run in development mode:
+  > npm start
+3. To build
+  > npm run build
+  After successful completion of the 
+  a. Then copy all all resource(css and js) in dist directory which are specified in the dist/index.html file to SharePoint.
+  b. copy <people-picker>Loading...</people-picker> tag and script tags from dist/index.html file to script editor webpart. It may look similar to :
+
+  <div>
+    <people-picker>Loading...</people-picker>
+  </div>
+  <script type="text/javascript" src="/polyfills.js"></script>
+  <script type="text/javascript" src="/vendor.js"></script>
+  <script type="text/javascript" src="/app.js"></script>
+  
+You are done.
