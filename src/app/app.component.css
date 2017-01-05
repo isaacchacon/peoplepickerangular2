@@ -1,0 +1,13 @@
+.modal-body ul.emp-sug-list {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+}
+.modal-body ul.emp-sug-list li.emp-sug-list-item {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 5px 0 5px 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
